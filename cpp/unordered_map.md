@@ -1,6 +1,6 @@
 # Unordered Map
 
-Last Updated: 03-03-2021
+Last Updated: 03-08-2021
 
 ## 구현
 * hash table
@@ -16,3 +16,5 @@ Last Updated: 03-03-2021
 * Red-black Tree를 비롯한 **균형 이진 탐색 트리** Self Balanced BST로 구현
 * 탐색에 log(n) 소요
 * 추가 및 삭제 작업에 log(n)과 트리의 균형을 맞추는 시간을 필요로 함
+
+algorithm 라이브러리의 sort를 사용할 수 있다.
