@@ -3,7 +3,7 @@
 Last Updated: 03-08-2021
 
 ## 구현
-* hash table
+* **hash table**
 
 ## 특징
 * key의 hash를 따라 bucket에 각 요소를 보관
@@ -17,4 +17,5 @@ Last Updated: 03-08-2021
 * 탐색에 log(n) 소요
 * 추가 및 삭제 작업에 log(n)과 트리의 균형을 맞추는 시간을 필요로 함
 
-algorithm 라이브러리의 sort를 사용할 수 있다.
+# 정렬
+* sort를 사용할 수 있다.
