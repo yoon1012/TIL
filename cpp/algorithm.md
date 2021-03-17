@@ -1,8 +1,12 @@
 # Algorithm
 
-Last Updated: 03-10-2021
+Last Updated: 03-17-2021
+
+## 최대/최소 함수
 
 * max_element: 구간의 최댓값을 가리키는 iterator를 반환한다.
+* min_element: 구간의 최솟값을 가리키는 iterator를 반환한다.
+
 * 오름차순 정렬: greater<int>
 
 ## 비교 함수
