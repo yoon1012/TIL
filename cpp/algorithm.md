@@ -1,6 +1,6 @@
 # Algorithm
 
-Last Updated: 03-19-2021
+Last Updated: 03-22-2021
 
 ## 최대와 최소
 
@@ -22,3 +22,5 @@ Last Updated: 03-19-2021
 ## 중복 제거하기
 
 * unique에 특정 범위의 iterator 인자를 전달한다.
+* unique는 중복 항목의 시작 iterator이자, 중복되지 않은 항목 바로 다음 iterator를 리턴함.
+* v.resize(std::distance(v.begin(), it))로 크기를 재설정한다.
