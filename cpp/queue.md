@@ -9,3 +9,15 @@ Last Updated: 05-12-2021
 
 * 기본은 Max Heap
 * std::greater를 사용하면 반대로 사용 가능
+
+### 비교 함수
+
+```cpp
+struct compare
+{
+    bool operator()(vector<int> a, vector<int> b)
+    {
+        return a[1] > b[1];
+    }
+};
+```
